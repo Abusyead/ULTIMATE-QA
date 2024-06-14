@@ -107,6 +107,59 @@
       
 }
 
+.header-main{
+    display: flex;
+    padding: 0 15%;
+    border-top: 1px solid #F2F2F2;
+    align-items: self-start;
+    justify-content: center;
+    
+}
+.header-main-img{
+     width: 480px;
+     margin-top: 120px;
+}
+
+.header-main-text {
+    padding: 100px 0px 0px 50px ;
+    
+}
+
+.header-main-text h1{
+    font-size: 60px;
+    color: #3856B9 ;
+    margin-bottom: 15px;
+}
+
+.header-main-text  p{
+    color: gray;
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 16px;
+    width: 600px;
+    padding-bottom:20px ;
+}
+
+.header-main-text button{
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color:#3856B9 ;
+}
+
+.header-main-text button:hover a{
+    color: wheat;
+}
 
 
-jhi
+
+
+
+.header-main-text button > a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 530;
+    transition: .5s;
+    /* letter-spacing:1px; */
+}
