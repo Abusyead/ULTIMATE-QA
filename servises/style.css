@@ -121,7 +121,7 @@
 }
 
 .header-main-text {
-    padding: 100px 0px 0px 50px ;
+    padding: 100px 0px 100px 50px ;
     
 }
 
@@ -162,4 +162,83 @@
     font-weight: 530;
     transition: .5s;
     /* letter-spacing:1px; */
+}
+
+/* services section code start hare */
+#services-section{
+    background-color: #F5F5F5;
+    padding: 80px 0 30px 0px;
+}
+
+
+.Services-container{
+    width: 1000px;
+    margin: auto;
+}
+.services-tittle{
+    text-align: center;
+}
+.services-tittle h2{
+    font-size: 40px;
+    font-weight:500;
+    padding-bottom:15px ;
+    color:#3856B9 ;
+}
+.services-tittle p{
+    color: gray;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+.services-span{
+    color: #404050;
+}
+
+.services-tittle > h4{
+    color: #797992;
+}
+
+.services-items-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    padding: 50px;
+    
+}
+
+.services-single-item{
+    border: 1px solid gainsboro;
+    padding: 30px;
+    text-align: center;
+    border-radius: 25px;
+    transition: .5s ;
+    
+}
+
+.services-single-item:hover{
+    border: 1px solid #3856B9 ;
+    box-shadow: 1px 1px 15px gray ,  1px 1px 15px gray ;
+}
+
+
+
+
+.service-img{
+    width: 100px;
+    margin: auto;
+    padding: 25px 0;
+}
+.service-img img{
+    width: 100%;
+}
+
+.services-single-item h3{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.services-single-item p{
+    color: gray;
+    line-height: 23px;
+    font-size: 15px;
 }
