@@ -500,4 +500,70 @@
 footer{
     background-color:#F5F5F5 ;
     padding-top: 200px;
+    position: relative;
+}
+.footer-contaner{
+    background-color:#7D27D7 ;
+    padding-top: 230px;
+    
+}
+
+.discovery-section {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 1000px;
+    top: 64px;
+    left: 450px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: .1px 4.1px -1px gainsboro,.5px .5px 15px gray;
+  }
+.discovery{
+    background-image: url(../img/3d-form-figure.svg);
+    width: 100%;
+    /* color: #404050; */
+    padding: 30px;
+}
+.discovery h4{
+    font-size: 30px;
+    color:#3856B9 ;
+    padding: 15px;
+}
+
+.discovery p{
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.discovery button{
+    padding: 14px 30px;
+    margin: 10px 0 50px 0;
+    border-radius: 25px;
+    border: 1px solid #3856B9;
+    background-color:#3856B9 ;
+    color: white;
+    font-weight: 500;
+    transition: .5s;
+}
+.discovery button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.hr{
+    border-top: 2px solid white;
+}
+
+.footer-nav-parent{
+    width: 1300px;
+    margin: auto;
+}
+.foter-nav-1{
+    display: flex;
+
+}
+
+.foter-nav-1{
+    width: 200px;
+    height: 40px;
 }
