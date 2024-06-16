@@ -328,3 +328,176 @@
     border: 1px solid #3856B9;
     color: black;
 }
+
+/* -- result section code start hare -- */
+
+
+#result-section{
+    background-color: #F5F5F5 ;
+    padding: 80px 0px;
+}
+
+.results-container{
+    width: 1300px;
+    margin: auto;
+}
+.result-tittle{
+    text-align: center;
+}
+
+.result-tittle > h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #3856B9 ;
+    margin: 5px;
+}
+
+.result-tittle > h5{
+    color: gray;
+}
+.result-items-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 80px;
+    padding-top: 80px;
+     
+}
+
+.result-items-parent div{
+    /* background-color: yellow; */
+    width: 500px;
+     
+}
+
+
+ .result-single-item-img {
+    width: 500px;
+    /* background-color: yellow; */
+    border-radius: 25px;
+}
+
+ 
+
+.result-single-item1{
+    justify-self: end;
+    
+}
+.result-single-item2{
+    justify-self: start;
+}
+
+.result-single-text-area h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+    
+}
+.result-single-text-area > p{
+    color: gray;
+    line-height: 25px;
+}
+.result-single-text-area > h3{
+    margin-top: 25px;
+}
+
+.result-single-text-area > h3 > a{
+    text-decoration: none;
+    color: #3856B9;
+}
+
+.result-single-text-area > h3 >i{
+    padding-left: 10px;
+    color: #3856B9;
+}
+
+.results-btn{
+    text-align: center;
+    padding-top: 80px;
+}
+.results-btn > button{
+    padding: 15px 30px;
+    background-color:#3856B9 ;
+    border-radius: 25px;
+    border: 1px solid #3856B9;
+    color: white;
+    font-size: 16px;
+    transition: .5s;
+
+
+}
+.results-btn > button:hover{
+    background-color: transparent;
+    color: black;
+}
+
+
+ /* feedback section code start hare */
+
+#feedback-section{
+    padding-top: 80px;
+    padding-bottom:50px ;
+
+}
+.feedback-items-parent{
+    width: 1300px;
+    margin: auto;
+}
+
+.feedback-single-item{
+    border: 1px solid gainsboro;
+    margin-top:50px ;
+    padding: 30px;
+    border-radius: 25px;
+    
+    
+}
+
+.feedback-single-item > h4{
+    font-weight: 50;
+    font-size: 18px;
+    color: gray;
+    padding-bottom: 40px;
+}
+.feedback-single-item > h4 > i > span{
+    color: black;
+}
+
+.feedback-single-item > h5{
+    font-size: 15px;
+    padding-bottom:3px ;
+}
+
+.feedback-single-item > p{
+    font-size: 15px;
+}
+
+.score-area{
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+.Score-img{
+    width: 350px;
+}
+
+.score-area >h2{
+    font-size: 35px;
+    padding-bottom:10px ;
+}
+.score-area > h2 > span{
+    color: #259A17;
+}
+
+.score-area > h2 > i{
+    color: #F5D741;
+}
+
+.score-area > p{
+    font-size: 15px;
+}
+
+footer{
+    background-color:#F5F5F5 ;
+    padding-top: 200px;
+}
